@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lge/v510
+LOCAL_PATH := device/lge/palman
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
@@ -12,5 +12,5 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := v510
+PRODUCT_NAME := palman
 PRODUCT_BRAND := LGE

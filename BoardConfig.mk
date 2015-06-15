@@ -18,7 +18,7 @@ TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lge/v510/kernel
+TARGET_PREBUILT_KERNEL := device/lge/palman/kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 user_debug=31 lpj=67677 androidboot.hardware=palman
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGESIZE := 2048
